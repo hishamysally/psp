@@ -6,7 +6,7 @@ import socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to a specific IP and port
-server_socket.bind(("your_server_ip", 12345))
+server_socket.bind(("192.168.8.113", 12345))
 
 # Listen for incoming connections
 server_socket.listen()
