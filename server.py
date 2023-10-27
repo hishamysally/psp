@@ -1,4 +1,4 @@
-# this is the server side
+# SERVER BUILD 1
 
 import socket
 

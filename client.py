@@ -1,4 +1,4 @@
-# the client end
+# CLIENT BUILD 1
 
 import socket
 
@@ -6,7 +6,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect to the server
-client_socket.connect(("192.168.8.151", 12345))
+client_socket.connect(("192.168.8.113", 12345))
 
 # Send and receive messages
 while True:
